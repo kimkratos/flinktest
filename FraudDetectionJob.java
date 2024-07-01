@@ -4,6 +4,8 @@ import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.walkthrough.common.sink.AlertSink;
 import org.apache.flink.walkthrough.common.source.TransactionSource;
+import org.apache.flink.walkthrough.common.entity.Alert;   // 添加导入
+import org.apache.flink.walkthrough.common.entity.Transaction; // 添加导入
 
 public class FraudDetectionJob {
 
